@@ -25,6 +25,11 @@ run_analysis<-function(){
     activitylabels<-as.vector(activitylabels[,2])
     data[,1]<-activitylabels[data[,1]]
     
+    var<-gsub("[t()]","",var)
+    var<-gsub("-","",var)
+    var<-gsub("Acc","Accelerating",var)
+    var<-gsub("mean","Mean",var)
+    var<-gsub("sd","StandardDeviation",var)
     names(data)<-c("activity","subject",var)
     
     data2<-split(data,list(data[,1],data[,2]))
