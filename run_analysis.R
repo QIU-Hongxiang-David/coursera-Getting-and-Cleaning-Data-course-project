@@ -27,7 +27,7 @@ run_analysis<-function(){
     
     var<-gsub("[t()]","",var)
     var<-gsub("-","",var)
-    var<-gsub("Acc","Accelerating",var)
+    var<-gsub("Acc","Acceleration",var)
     var<-gsub("mean","Mean",var)
     var<-gsub("sd","StandardDeviation",var)
     names(data)<-c("activity","subject",var)
