@@ -39,4 +39,6 @@ To run the script
 
 in the console.
 
+If one wants to see the detals in the script, nearly all the variable names are quite self-descriptive, except that "var" stands for "variables", and "varneedl" stands for "variables needed-logical".
+
 For further information about the data set, see README.txt.
