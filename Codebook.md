@@ -8,7 +8,9 @@
 
 2."subject": the subject, or person, from whom the other data were collected during experiments.
 
-3.Others: the average of each variable for each activity and each subject in the original data set. Since the original data were normalized and bounded within [-1,1] (see README.txt Notes),the variables may be considered to have no units.
+3.Others: the average of each variable for each activity and each subject in the original data set. Since the original data were normalized and bounded within the closed interval [-1,1] (see README.txt Notes),the variables may be considered to have no units.
+
+============================================================================================================================
 
 #Steps of cleaning up the data and creating the data file
 
