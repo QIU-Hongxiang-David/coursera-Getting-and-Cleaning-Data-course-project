@@ -1,4 +1,4 @@
-coursera-Getting-and-Cleaning-Data-course-project
+#coursera-Getting-and-Cleaning-Data-course-project
 =================================================
 
 This is the repo for the course project of Getting and Cleaning Data on Coursera, including a README.md, an R script, a text data file, and some text files about the data set, which will be introduced later.
