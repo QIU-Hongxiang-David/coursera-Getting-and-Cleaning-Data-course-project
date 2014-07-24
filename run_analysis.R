@@ -30,6 +30,8 @@ run_analysis<-function(){
     var<-gsub("Acc","Acceleration",var)
     var<-gsub("mean","Mean",var)
     var<-gsub("sd","StandardDeviation",var)
+    var<-gsub("Mag","Magnitude",var)
+    var<-gsub("^f","Frequecy",var)
     names(data)<-c("activity","subject",var)
     
     data2<-split(data,list(data[,1],data[,2]))
