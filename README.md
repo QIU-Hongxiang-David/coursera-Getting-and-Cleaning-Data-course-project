@@ -1,4 +1,8 @@
+coursera-Getting-and-Cleaning-Data-course-project
+=================================================
+
 This is the repo for the course project of Getting and Cleaning Data on Coursera, including a README.md, an R script, a text data file, and some text files about the data set, which will be introduced later.
+
 ========================================================================================================================
 
 The R script, run_analysis.R, does the following:
@@ -24,6 +28,7 @@ One can install it by typing
 >install.packages("plyr")
 
 in the console, if connected to Internet.
+
 ==========================================================================================================================
 
 To run the script
@@ -39,9 +44,11 @@ To run the script
 >DATA=run_analysis()
 
 in the console.
+
 ==========================================================================================================================
 
 If one wants to see the details in the script, nearly all the variable names are quite self-descriptive, except that "var" stands for "variables", and "varneedl" stands for "variables needed-logical".
+
 ==========================================================================================================================
 
 For further information about the data set, see README.txt.
