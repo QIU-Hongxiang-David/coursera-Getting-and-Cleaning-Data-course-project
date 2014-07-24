@@ -2,6 +2,7 @@ coursera-Getting-and-Cleaning-Data-course-project
 =================================================
 
 This is the repo for the course project of Getting and Cleaning Data on Coursera, including a README.md, an R script, a text data file, and some text files about the data set, which will be introduced later.
+========================================================================================================================
 
 The R script, run_analysis.R, does the following:
 
@@ -17,13 +18,16 @@ The R script, run_analysis.R, does the following:
 
 6.Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Hence, one needn't have the data prepared in the working directory in order to complete the tasks above, but only needs to be connected to Internet.
+###Hence, one needn't have the data prepared in the working directory in order to complete the tasks above, but only needs to be connected to Internet.
 
-HOWEVER, one MUST install "plyr" R package before running the script, which is covered by the lectures. One can install it by typing
+##HOWEVER, one MUST install "plyr" R package before running the script, which is covered by the lectures.
+
+One can install it by typing
 
 >install.packages("plyr")
 
 in the console, if connected to Internet.
+==========================================================================================================================
 
 To run the script
 
@@ -38,7 +42,9 @@ To run the script
 >DATA=run_analysis()
 
 in the console.
+==========================================================================================================================
 
-If one wants to see the detals in the script, nearly all the variable names are quite self-descriptive, except that "var" stands for "variables", and "varneedl" stands for "variables needed-logical".
+If one wants to see the details in the script, nearly all the variable names are quite self-descriptive, except that "var" stands for "variables", and "varneedl" stands for "variables needed-logical".
+==========================================================================================================================
 
 For further information about the data set, see README.txt.
